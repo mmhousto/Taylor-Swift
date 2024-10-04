@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Sequoia;
+  src: url("Sequoia Font.otf");
+}
+
+.myimg {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: solid black 4px;
+}
+
+span {
+	margin: 100px;
+	font-size: 36px;
+}
+
+h1{
+	font-size: 42px;
+}
+
+h2{
+	font-size: 36px;
+}
+
+p, li, button{
+	font-size: 22px;
+}
+
+body {
+	/*background-color: #00f2f2;*/
+	background-repeat: no-repeat;
+  	background-size: 100%;
+	background-image: url(lover.jpg);
+	font-family: "Sequoia";
+}
+
+button {
+	background-color:#94bfe9;
+	color: #fff0c0;
+	width: 250px;
+	height: 75px;
+	margin: 40px auto;
+    padding: 10px;
+	border-radius: 50px;
+	border: solid black 4px;
+}
+
+.source {
+	margin: 20px 75px;
+}
